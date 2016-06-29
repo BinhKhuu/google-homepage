@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+	padding: 0;
+}
 #background {
 	position: fixed;
 	background-color: #fff;
@@ -10,22 +14,24 @@
 #logo {
 	position: relative;
 	text-align: center;
-	top:40%;
+	top:25%;
 
 }
 #footerDiv {
-	position: fixed;
+	position: absolute;
+	font-family: arial, sans-serif;
+	font-size: 10pt;
 	clear:both;
 	bottom: 0;
 	width: 100%;
-	height: 5%;
-	background-color:  #f2f2f2;
+	height: 40px;
+	background-color: #f2f2f2;
+	color: #666;
 }
 #footerLinksLeft {
 	position: relative;
+	line-height: 40px;
 	width: 49%;
-	font-family: arial, sans-serif;
-	font-size: 13px;
 	display: inline-block;
 }
 #footerLinksRight {
@@ -33,10 +39,15 @@
 	text-align: right;
 	right:0;
 	width:49%;
-	font-family: arial, sans-serif;
-	font-size: 13px;
 	display: inline-block;
+	line-height: 40px;
 
+}
+#footerLinksRight a {
+	padding-left: 27px;
+}
+#footerLinksLeft a {
+	padding-left: 27px;
 }
 #footerDiv a:link {
 	text-decoration: none;
@@ -44,11 +55,13 @@
 #footerDiv a:hover {
 	text-decoration: underline;
 }
-
+#footerDiv a:visited {
+	color: #666;
+}
 #searchForm {
 	position: relative;
 	margin: auto;
-	top: 40%;
+	top: 25%;
 	bottom: 50%;
 	text-align: center;
 }
