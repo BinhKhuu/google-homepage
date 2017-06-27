@@ -1,3 +1,2 @@
 # google-homepage
-/*comment */
-/*comment 2*/:
+My attempt at cloning the google home page with basic HTML and CSS
